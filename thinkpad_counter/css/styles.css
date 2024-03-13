@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("library1.png");
+  background-image: url("../images/library1.png");
   background-size: cover;
   background-attachment: scroll;
   background-position: center;
