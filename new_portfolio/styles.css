@@ -5,18 +5,27 @@
 }
 
 * {
-	font-family: "Poppins", sans-serif;
+	/* font-family: "Poppins", sans-serif; */
 }
 
 header {
-	background-image: url(assets/BackDesk.png);
+	background-image: url(assets/bg-fluid6.png);
 	background-position: center;
 	background-size: cover;
+	height: 100vh;
+	position: relative;
 }
 
 .navbar button span,
 .logo-custom {
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+	font-weight: 100;
+	/* color: var(--color-primary); */
+	color: rgb(223, 223, 223);
+	font-size: 18px;
 }
 
 .navbar button {
@@ -39,21 +48,37 @@ header {
 }
 
 .logo-custom {
-	font-size: 1.2rem;
-	font-weight: 900;
-	color: rgb(39, 39, 39);
-	text-decoration: underline;
+	font-size: 1.3rem;
+	font-weight: 500;
+	letter-spacing: -1px;
+	/* color: rgb(39, 39, 39); */
+	/* color: rgb(44, 44, 44); */
+	color: rgb(223, 223, 223);
 	padding: 5px 10px;
-	border: 2px solid black;
 }
 
 .hi-there {
 	color: var(--color-primary);
-	margin-top: -40px;
+	/* color: white; */
+	/* margin-top: -40px; */
 	font-size: 3.7rem;
+	font-weight: 600;
+	letter-spacing: 3px;
+}
+
+.position-bt {
+	position: absolute;
+	bottom: 2%;
+	/* color: var(--color-primary); */
+	/* color: white; */
+	color: rgb(223, 223, 223);
 }
 
 .freelance-txt {
 	color: var(--color-secondary);
 	text-shadow: 1px 4px 4px hsl(0, 0%, 30%);
+}
+
+p {
+	line-height: 1.2;
 }
