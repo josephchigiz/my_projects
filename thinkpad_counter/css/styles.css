@@ -1,8 +1,7 @@
 :root {
   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
   font-size: 16px;
 }
 
@@ -77,7 +76,7 @@ main {
     border: none;
     padding: 0.4rem;
     border-radius: 5px;
-    background-color: #F55C47;
+    background-color: #f55c47;
     color: white;
   }
 }
@@ -104,13 +103,13 @@ main {
   /* margin-top: 1.875rem; */
   font-size: 2rem;
   font-weight: 300;
-  text-decoration:underline #cfeecf;
-  color: #9FE6A0;
+  text-decoration: underline #cfeecf;
+  color: #9fe6a0;
 }
 
 #increment-btn {
   /* background: darkred; */
-  background: #F55C47;
+  background: #f55c47;
   margin-bottom: 0.8rem;
   border-radius: 5px;
 }
@@ -126,11 +125,12 @@ main {
 
 #save-btn {
   /* background: darkgreen; */
-  background: #4AA96C;
+  background: #4aa96c;
   border-radius: 5px;
 }
 
-#save-btn:hover, #save-btn:active {
+#save-btn:hover,
+#save-btn:active {
   cursor: pointer;
 }
 
@@ -139,10 +139,10 @@ main {
 }
 
 .fun-div {
-  justify-self:flex-end;
+  justify-self: flex-end;
 }
 #have-fun {
-  color: #9FE6A0;
+  color: #9fe6a0;
   font-weight: lighter;
   font-size: 3rem;
 }
